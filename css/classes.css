@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-color);
+    line-height: 1.5;
+}
+.section {
+    min-height: 100vh;
+}
+
+.whitebg {
+    background: var(--white);
+    color: var(--primary-color)
+}
+.mainbg {
+    background-image: url('../img/confetti-doodles.png');
+    background-size: cover;
+    background-position: center, center;
+    color: var(--white);
+}
+
+.maincontainer {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}

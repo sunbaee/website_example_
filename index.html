@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/elements.css">
+    <link rel="stylesheet" href="css/classes.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <input type="checkbox" role="button" aria-label="Close menu" id="closemenu" class="closemenu">
+    <label for="closemenu" title="close menu" class="closemenulabel"></label>
+    <aside class="menu whitebg">
+        <div class="maincontainer menucontainer">
+            <h1><a href="#" onclick="getElementById('closemenu').checked = false;">LOGO</a></h1>
+            <nav>
+                <ul onclick="getElementById('closemenu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menuspacing"></div>
+    <section class="intro mainbg section">
+        <div class="maincontainer introcontainer">
+            <div class="intro-text">
+                <h2>January brings us firefox 85</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A explicabo asperiores eos adipisci corrupti at possimus incidunt repellendus voluptas quam! Nam quae ipsam aliquid ducimus! Commodi totam consequuntur veniam corporis?</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/undraw_static_assets_rpm6.svg" alt="Logo de html, javascript e css">
+            </div>
+        </div>
+    </section>
+    <section class="whitebg section" id="intro">
+        <div class="maincontainer top3-content">
+            <h2>TOP 3 JOBS</h2>
+            <p>The release of Apple Silicon-based macs at the end of last year generated a flurry of news coverage and some surprises at the machine's performance. The post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+            <p>We'll start with some backgrounbd on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>We'll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We'll conclude with the release and an overview of various other improvementes that are in the pipeline.</p>
+        </div>
+    </section>
+    <section id="top3" class="grid mainbg section">
+        <div class="maincontainer gridcontent">
+            <h2 class="gridname">TOP 3 JOBS</h2>
+            <p class="griddesc">Here are some recent work.</p>
+            <div class="gridp">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora veniam commodi velit repellendus quam ducimus laboriosam excepturi quas eligendi libero deserunt consequatur unde, laborum consectetur at expedita. Veniam, similique impedit.</p>
+                </article>
+                <article>
+                    <h3>Another site</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, similique perferendis dicta possimus culpa molestias quas, id repudiandae laboriosam ducimus, labore sint aliquid. Nemo voluptatibus, repudiandae doloremque repellat mollitia consequatur.</p>
+                </article>
+                <article>
+                    <h3>Third one</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, similique perferendis dicta possimus culpa molestias quas, id repudiandae laboriosam ducimus, labore sint aliquid. Nemo voluptatibus, repudiandae doloremque repellat mollitia consequatur.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid whitebg section">
+        <div class="maincontainer gridcontent">
+            <h2 class="gridname">GALLERY</h2>
+            <p class="griddesc">Here are some of my pics.</p>
+            <div class="gridp">
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash">
+                </div>
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash">
+                </div>
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash">
+                </div>
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash">
+                </div>
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash">
+                </div>
+                <div class="galleryimg">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="grid mainbg section">
+        <div class="maincontainer gridcontent">
+            <h2 class="gridname">RECENT JOBS</h2>
+            <p class="griddesc">Here are some recent work.</p>
+            <div class="gridp">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora veniam commodi velit repellendus quam ducimus laboriosam excepturi quas eligendi libero deserunt consequatur unde, laborum consectetur at expedita. Veniam, similique impedit.</p>
+                </article>
+                <article>
+                    <h3>Another site</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, similique perferendis dicta possimus culpa molestias quas, id repudiandae laboriosam ducimus, labore sint aliquid. Nemo voluptatibus, repudiandae doloremque repellat mollitia consequatur.</p>
+                </article>
+                <article>
+                    <h3>Third one</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, similique perferendis dicta possimus culpa molestias quas, id repudiandae laboriosam ducimus, labore sint aliquid. Nemo voluptatibus, repudiandae doloremque repellat mollitia consequatur.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="whitebg section" id="pricing">
+        <div class="maincontainer top3-content">
+            <h2>PRICING</h2>
+            <p>The release of Apple Silicon-based macs at the end of last year generated a flurry of news coverage and some surprises at the machine's performance. The post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro mainbg section">
+        <div class="maincontainer introcontainer">
+            <div class="intro-text">
+                <h2>January brings us firefox 85</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A explicabo asperiores eos adipisci corrupti at possimus incidunt repellendus voluptas quam! Nam quae ipsam aliquid ducim  us! Commodi totam consequuntur veniam corporis?</p>
+            </div>
+            <div class="intro-img">
+                <img src="img/undraw_static_assets_rpm6.svg" alt="Logo de html, javascript e css">
+            </div>
+            <div class="contactform">
+                <fieldset class="formgrid">
+                    <legend>Contact us</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <footer id="footer" class="footer whitebg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/sunbaee">Made with  <span class="heart">❤</span> by Lucas Bertazo</a></p>
+    </footer>
+
+    <a class="backtotop" href="#">➤</a>
+</body>
+</html>
