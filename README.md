@@ -6,4 +6,4 @@ The `img` folder wasn't added.
 
 ## Access it via the link below: 
 
-sunbaee.github.io/website_example/
+sunbaee.github.io/website_example_/
