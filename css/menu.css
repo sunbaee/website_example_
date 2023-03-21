@@ -35,7 +35,7 @@
     content: '';
     position: absolute; /*cria relação com o navegador e não c o elemento pai*/
     bottom: 1rem;
-    left: 100%;
+    right: 100%;
     width: 0;
     height: 0.2rem;
     background: var(--secundary-color);
@@ -44,7 +44,7 @@
 
 .menu ul li a:hover::after {
     width: 50%;
-    left: 25%;
+    left: 100%;
 }
 
 .menu h1 {
